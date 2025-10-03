@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Mini Block Explorer</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Mini Block Explorer</h1>
+        <p>Latest Block: <span id="latestBlock">Loading...</span></p>
+        <hr>
+        <input type="number" id="blockSearch" placeholder="Search for Block #">
+        <button id="searchBtn">Search</button>
+        <div id="result"></div>
+    </div>
+    <script src="https://cdn.ethers.io/lib/ethers-5.7.umd.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
